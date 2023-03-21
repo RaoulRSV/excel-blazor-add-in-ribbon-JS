@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "allowJs" : true,
+    "target": "es5",
+    "lib": [ "es6", "dom" ]
+  },
+  "include": [
+    "**/*",
+    "ES2015",
+    "Dialog.html",
+    "wwwroot/BlazorAddIn.lib.module.ts",
+    "Pages/Index.razor.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ],
+  "types": [
+    "office-js",
+    "jquery",
+    "node", 
+    "blazor"
+  ],
+  "files": ["wwwroot/BlazorAddIn.lib.module.ts","Pages/Index.razor.ts" ],
+  "compileOnSave": true
+}
