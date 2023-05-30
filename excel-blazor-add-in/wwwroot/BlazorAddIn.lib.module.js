@@ -38,8 +38,6 @@ export async function beforeStart(wasmoptions, extensions) {
  * @param  {} blazor
  */
 export async function afterStarted(blazor) {
-    var customScript = document.createElement('script');
-    customScript.setAttribute('src', 'Pages/Index.razor.js');
-    document.head.appendChild(customScript);
+   
     console.log("We are now entering function: afterStarted");
 }
